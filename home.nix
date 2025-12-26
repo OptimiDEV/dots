@@ -17,13 +17,16 @@
   programs.neovim = {
     enable = true;
   };
-
-  fonts.fontconfig.enable = true;
-
+   fonts.fontconfig.enable = true;
+  
   # Home packages :p
 	home.packages = with pkgs; [
+    flatpak
+    pavucontrol
     nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka
+    xdg-desktop-portal
+    xdg-desktop-portal-gtk
     fd
     unityhub
     git
@@ -38,5 +41,6 @@
 		nixpkgs-fmt
 		nodejs
 		gcc
+    rpi-imager
 	];
 }

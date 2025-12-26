@@ -44,6 +44,8 @@
     xkb.layout = "de";
   };
 
+# fuck me pls  xdg.portal.enable = true;
+# same here pls  services.flatpak.enable = true;
   services.displayManager.ly.enable = true;
 
   # Configure keymap in X11
